@@ -1,5 +1,5 @@
 [submodule "vendor/imgui"]
-	path = vendor/sfml
+	path = vendor/imgui
 	url = https://github.com/ocornut/imgui.git
 [submodule "vendor/glfw"]
 	path = vendor/glfw
