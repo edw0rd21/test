@@ -31,5 +31,9 @@
 *.out
 *.app
 
-#VS Code
+#VS files
 .vscode/
+.vs/
+
+#Build files
+build/
