@@ -7,6 +7,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 add_subdirectory(vendor/glfw)
 add_subdirectory(vendor/glad)
 add_subdirectory(vendor/imgui)
+add_subdirectory(vendor/glm)
 
 find_package(OpenGL REQUIRED)
 
@@ -17,4 +18,5 @@ target_link_libraries(${PROJECT_NAME}
     OpenGL::GL
     glfw
     glad
+    glm
     imgui)
